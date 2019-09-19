@@ -2803,17 +2803,22 @@ input, select, textarea {
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
+		text-align: center;
+
 	}
 
 		ul.icons li {
 			display: inline-block;
 			padding: 0 0.5rem 0 0;
 			vertical-align: middle;
+			text-align: center;
+
 		}
 
 			ul.icons li:last-child {
 				padding-right: 0;
+				text-align: center;
+
 			}
 
 			ul.icons li .icon:before {
@@ -2821,8 +2826,6 @@ input, select, textarea {
 				height: 2.25rem;
 				line-height: 2.25rem;
 				display: inline-block;
-				text-align: center;
-				border-radius: 100%;
 				font-size: 1.25rem;
 			}
 
@@ -2850,6 +2853,7 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2rem 0;
 		padding-left: 1rem;
+		
 	}
 
 		ul li {
